@@ -28,5 +28,6 @@ public class ContactServiceImpl implements ContactService {
         contact.setType(type);
         contact.setClient(client);
         return contactRepository.save(contact);
+
     }
 }

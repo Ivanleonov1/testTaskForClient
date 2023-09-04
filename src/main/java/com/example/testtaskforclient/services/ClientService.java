@@ -14,4 +14,5 @@ public interface ClientService {
     void addContactToClient(Long clientid, String value, ContactType type);
     List<Contact> getClientContacts(Long clientId);
     List<Contact> getClientContactsByType(Long clientId, ContactType type);
+
 }

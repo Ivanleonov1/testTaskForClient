@@ -6,4 +6,5 @@ import com.example.testtaskforclient.entitys.enumirated.ContactType;
 public interface ContactService {
 
     Contact createdContact(Long clientId, String value, ContactType type);
+
 }

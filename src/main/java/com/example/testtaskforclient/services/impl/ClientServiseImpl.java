@@ -63,5 +63,6 @@ public class ClientServiseImpl implements ClientService {
     public List<Contact> getClientContactsByType(Long clientId, ContactType type) {
         Client client = clientRepository.findById(clientId).orElseThrow();
         return contactRepository.findByClientAndType(client,type);
+
     }
 }

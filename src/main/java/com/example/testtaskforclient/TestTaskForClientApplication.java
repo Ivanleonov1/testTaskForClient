@@ -8,6 +8,7 @@ public class TestTaskForClientApplication {
 
     public static void main(String[] args) {
         SpringApplication.run(TestTaskForClientApplication.class, args);
+
     }
 
 }

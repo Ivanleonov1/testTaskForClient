@@ -9,6 +9,7 @@ services:
       POSTGRES_PASSWORD: root
       POSTGRES_DB: clients
     ports:
+      -
       - "5437:5432"       #захочется поменять, меняем левый(!) порт, доступ к бд jdbc:postgresql://localhost:5437/airline_db?useUnicode=yes&characterEncoding=UTF-8&serverTimezone=Europe/Moscow
     restart: unless-stopped
   pgadmin:  # если бд не подключается или что-то не так, можно подключить и посмотреть здесь, НЕ используем localhost, используем порт докера
